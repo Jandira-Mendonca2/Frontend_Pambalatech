@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app :style="{background: $vuetify.theme.themes.light.colors.primary}">
     <slot/>
   </v-app>
 </template>
